@@ -1,3 +1,6 @@
+// This program is used to find the position of two numbers in vector already provided, which when sum up
+// give the target value.
+
 #include<bits/stdc++.h>
 using namespace std;
 
