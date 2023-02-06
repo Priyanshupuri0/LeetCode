@@ -1,3 +1,4 @@
+// Problem Link: https://leetcode.com/problems/two-sum/
 // This program is used to find the position of two numbers in vector already provided, which when sum up
 // give the target value.
 
@@ -19,7 +20,7 @@ int main()
         int complement = target - num;
 
         auto it = umap.find(complement);
-        if(it != umap.end())
+        if(it != umap.end()) // number found
         {
             cout<<it->second<<" "<<i<<endl;
         }
